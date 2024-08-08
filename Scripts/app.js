@@ -1,6 +1,6 @@
 // Sample tea product data
 const teas = [
-    { id: 1, name: "Green Tea", price: 2.99, image: "../Media/green-tea.jpg", description: "Refreshing and healthy, rich in antioxidants." },
+    { id: 1, name: "Green Tea", price: 2.99, image: "term-project/Media/green-tea.jpg", description: "Refreshing and healthy, rich in antioxidants." },
     { id: 2, name: "Black Tea", price: 9.99, image: "../Media/black-tea.jpg", description: "Bold and robust, perfect for your morning routine." },
     { id: 3, name: "Herbal Tea", price: 14.99, image: "../Media/herbal-tea.jpg", description: "Caffeine-free and calming, a perfect way to unwind." },
     { id: 4, name: "Oolong Tea", price: 18.99, image: "../Media/oolong-tea.jpg", description: "A balanced flavor, perfect for a relaxing afternoon." },
