@@ -1,0 +1,74 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7f3e9;
+    color: #5a4a3f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4b3b30;
+    color: #f7f3e9;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #5a4a3f;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.product-list, .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product, .cart-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #8a7a6f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6d5f55;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+    padding: 0 20px;
+}
