@@ -2,9 +2,9 @@
 const teas = [
     { id: 1, name: "Green Tea", price: 2.99, image: "Media/green-tea.jpg", description: "Refreshing and healthy, rich in antioxidants." },
     { id: 2, name: "Black Tea", price: 9.99, image: "Media/black-tea.jpg", description: "Bold and robust, perfect for your morning routine." },
-    { id: 3, name: "Herbal Tea", price: 14.99, image: "../Media/herbal-tea.jpg", description: "Caffeine-free and calming, a perfect way to unwind." },
-    { id: 4, name: "Oolong Tea", price: 18.99, image: "../Media/oolong-tea.jpg", description: "A balanced flavor, perfect for a relaxing afternoon." },
-    { id: 5, name: "White Tea", price: 15.99, image: "../Media/white-tea.jpg", description: "Delicate and subtle, a tea for connoisseurs." }
+    { id: 3, name: "Herbal Tea", price: 14.99, image: "Media/herbal-tea.jpg", description: "Caffeine-free and calming, a perfect way to unwind." },
+    { id: 4, name: "Oolong Tea", price: 18.99, image: "Media/oolong-tea.jpg", description: "A balanced flavor, perfect for a relaxing afternoon." },
+    { id: 5, name: "White Tea", price: 15.99, image: "Media/white-tea.jpg", description: "Delicate and subtle, a tea for connoisseurs." }
 ];
 
 const productList = document.getElementById('product-list');
